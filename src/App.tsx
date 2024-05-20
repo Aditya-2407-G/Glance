@@ -8,7 +8,7 @@ import RootLayout from './_root/RootLayout'
 
 const App = () => {
   return (
-    <main className='flex h-screen'>
+    <main className='flex h-screen  bg-custom-gradient'>
         <Routes>
 
             <Route element={<AuthLayout/>}>

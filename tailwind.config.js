@@ -59,6 +59,9 @@ export default  {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
+      backgroundImage:{
+        'custom-gradient': 'radial-gradient(at bottom right, rgba(93, 95, 210, 0.2), rgba(0, 0, 0))',
+      },
     },
   },
   plugins: [import ('tailwindcss-animate')],
